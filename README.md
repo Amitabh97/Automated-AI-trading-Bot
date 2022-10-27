@@ -928,29 +928,24 @@ if __name__ == "__main__":
 
 # AWS Automation complete process:
 
-_Step 1: Logged in to my AWS account(aws link)_
+_Step 1: Logged in to my AWS account(https://aws.amazon.com/)_
 
 _Step 2: Created an EC2 instance(t2 micro is used under free tier)_
 
-_Step 3: Create a key pair(.pem file) of your instance_
+_Step 3: Created a key pair(.pem file) of your instance_
 
-_Step 4: Connect to the instance created(go to instance->connect->download remote desktop file->get password->use the .pem file->get the password->log in from the remote desktop instance)_
+_Step 4: Connected to the instance created(go to instance->connect->download remote desktop file->get password->use the .pem file->get the password->log in from the remote desktop instance)_
 
-_Step 5: Download and install Anaconda and required packages in remote desktop instance_
+_Step 5: Downloaded and installed Anaconda and required packages in remote desktop instance_
 
-_Step 6: Enable usage of local drive(which contains the codes) for the remote desktop instance_
+_Step 6: Enabled usage of local drive(which contains the codes) for the remote desktop instance_
 
-_Step 7: Copy paste the files needed in the instance_
+_Step 7: Copied and pasted the files needed in the instance_
 
-_Step 8: Create a .bat file(notepad file with automated trading file path). Then on double clicking the .bat file, the command prompt opens automatically and the code file Automated Bot.py runs_
+_Step 8: Created a .bat file(notepad file with automated trading file path). Then on double clicking the .bat file, the command prompt opens automatically and the code file Automated Bot.py runs_
 
 _Step 9: Now finally to automate entire process we schedule the process with task schedular and schedule the week days and start time to start trading._
 
 _Step 10: We set the stop time in the Trader class of Automated Bot.py file._
 
 ## ___By this the completely automated trading bot is created!___
-
-```bash
-```
-```bash
-```
