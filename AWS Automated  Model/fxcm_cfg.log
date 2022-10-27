@@ -1,0 +1,150 @@
+|ERROR|2022-07-28 17:46:52,368|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-07-28 17:46:52,376|URL: https://api-demo.fxcm.com:443/candles/8001/H1?num=10&from=1604188800&to=1658966400
+|ERROR|2022-07-28 17:46:52,377|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer HSVbWq6ly77gnlx8Ag4r21e7397eeb19aab46f8488b04b427c911c599d8e', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-07-28 17:46:52,377|Params: {'num': 10, 'from': 1604188800, 'to': 1658966400}
+|ERROR|2022-07-28 17:46:52,377|Bearer token: Bearer HSVbWq6ly77gnlx8Ag4r21e7397eeb19aab46f8488b04b427c911c599d8e
+|ERROR|2022-07-28 17:46:52,377|Connection status: established
+|ERROR|2022-07-28 17:46:52,377|Socket session id: HSVbWq6ly77gnlx8Ag4r
+|ERROR|2022-07-28 17:46:52,377|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8001","period_id":"H1","candles":[]}.
+|ERROR|2022-07-29 00:33:55,340|Socket returns unknown error.
+|ERROR|2022-07-29 00:33:58,951|Socket returns unknown error.
+|ERROR|2022-07-29 00:34:48,222|Socket returns unknown error.
+|ERROR|2022-07-29 01:02:26,781|packet queue is empty, aborting
+|ERROR|2022-07-29 01:02:26,781|packet queue is empty, aborting
+|ERROR|2022-08-01 13:00:53,570|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-08-01 13:00:53,570|URL: https://api-demo.fxcm.com:443/candles/8001/H4?num=10&from=1291161600&to=1659312000
+|ERROR|2022-08-01 13:00:53,570|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer CUbcpwHYfQrFvMzPM7ce21e7397eeb19aab46f8488b04b427c911c599d8e', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-08-01 13:00:53,570|Params: {'num': 10, 'from': 1291161600, 'to': 1659312000}
+|ERROR|2022-08-01 13:00:53,570|Bearer token: Bearer CUbcpwHYfQrFvMzPM7ce21e7397eeb19aab46f8488b04b427c911c599d8e
+|ERROR|2022-08-01 13:00:53,570|Connection status: established
+|ERROR|2022-08-01 13:00:53,570|Socket session id: CUbcpwHYfQrFvMzPM7ce
+|ERROR|2022-08-01 13:00:53,570|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8001","period_id":"H4","candles":[]}.
+|ERROR|2022-08-01 13:02:09,700|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-08-01 13:02:09,700|URL: https://api-demo.fxcm.com:443/candles/8001/H2?num=10&from=1543622400&to=1659312000
+|ERROR|2022-08-01 13:02:09,700|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer CUbcpwHYfQrFvMzPM7ce21e7397eeb19aab46f8488b04b427c911c599d8e', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-08-01 13:02:09,700|Params: {'num': 10, 'from': 1543622400, 'to': 1659312000}
+|ERROR|2022-08-01 13:02:09,700|Bearer token: Bearer CUbcpwHYfQrFvMzPM7ce21e7397eeb19aab46f8488b04b427c911c599d8e
+|ERROR|2022-08-01 13:02:09,700|Connection status: established
+|ERROR|2022-08-01 13:02:09,700|Socket session id: CUbcpwHYfQrFvMzPM7ce
+|ERROR|2022-08-01 13:02:09,700|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8001","period_id":"H2","candles":[]}.
+|ERROR|2022-08-01 13:02:27,575|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-08-01 13:02:27,575|URL: https://api-demo.fxcm.com:443/candles/8001/H2?num=10&from=1512086400&to=1659312000
+|ERROR|2022-08-01 13:02:27,575|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer CUbcpwHYfQrFvMzPM7ce21e7397eeb19aab46f8488b04b427c911c599d8e', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-08-01 13:02:27,575|Params: {'num': 10, 'from': 1512086400, 'to': 1659312000}
+|ERROR|2022-08-01 13:02:27,575|Bearer token: Bearer CUbcpwHYfQrFvMzPM7ce21e7397eeb19aab46f8488b04b427c911c599d8e
+|ERROR|2022-08-01 13:02:27,575|Connection status: established
+|ERROR|2022-08-01 13:02:27,575|Socket session id: CUbcpwHYfQrFvMzPM7ce
+|ERROR|2022-08-01 13:02:27,575|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8001","period_id":"H2","candles":[]}.
+|ERROR|2022-08-01 13:23:19,523|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-08-01 13:23:19,523|URL: https://api-demo.fxcm.com:443/candles/8001/H2?num=10&from=1483228800&to=1659312000
+|ERROR|2022-08-01 13:23:19,523|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer LzPwnC-D3sLCrUMWNE3_21e7397eeb19aab46f8488b04b427c911c599d8e', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-08-01 13:23:19,523|Params: {'num': 10, 'from': 1483228800, 'to': 1659312000}
+|ERROR|2022-08-01 13:23:19,523|Bearer token: Bearer LzPwnC-D3sLCrUMWNE3_21e7397eeb19aab46f8488b04b427c911c599d8e
+|ERROR|2022-08-01 13:23:19,523|Connection status: established
+|ERROR|2022-08-01 13:23:19,523|Socket session id: LzPwnC-D3sLCrUMWNE3_
+|ERROR|2022-08-01 13:23:19,523|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8001","period_id":"H2","candles":[]}.
+|ERROR|2022-08-01 13:23:27,096|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-08-01 13:23:27,096|URL: https://api-demo.fxcm.com:443/candles/8001/H2?num=10&from=1514764800&to=1659312000
+|ERROR|2022-08-01 13:23:27,096|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer LzPwnC-D3sLCrUMWNE3_21e7397eeb19aab46f8488b04b427c911c599d8e', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-08-01 13:23:27,096|Params: {'num': 10, 'from': 1514764800, 'to': 1659312000}
+|ERROR|2022-08-01 13:23:27,096|Bearer token: Bearer LzPwnC-D3sLCrUMWNE3_21e7397eeb19aab46f8488b04b427c911c599d8e
+|ERROR|2022-08-01 13:23:27,096|Connection status: established
+|ERROR|2022-08-01 13:23:27,096|Socket session id: LzPwnC-D3sLCrUMWNE3_
+|ERROR|2022-08-01 13:23:27,096|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8001","period_id":"H2","candles":[]}.
+|ERROR|2022-08-01 13:23:36,825|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-08-01 13:23:36,825|URL: https://api-demo.fxcm.com:443/candles/8001/H2?num=10&from=1543622400&to=1659312000
+|ERROR|2022-08-01 13:23:36,825|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer LzPwnC-D3sLCrUMWNE3_21e7397eeb19aab46f8488b04b427c911c599d8e', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-08-01 13:23:36,825|Params: {'num': 10, 'from': 1543622400, 'to': 1659312000}
+|ERROR|2022-08-01 13:23:36,825|Bearer token: Bearer LzPwnC-D3sLCrUMWNE3_21e7397eeb19aab46f8488b04b427c911c599d8e
+|ERROR|2022-08-01 13:23:36,825|Connection status: established
+|ERROR|2022-08-01 13:23:36,825|Socket session id: LzPwnC-D3sLCrUMWNE3_
+|ERROR|2022-08-01 13:23:36,825|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8001","period_id":"H2","candles":[]}.
+|ERROR|2022-08-01 13:23:47,472|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-08-01 13:23:47,472|URL: https://api-demo.fxcm.com:443/candles/8001/H2?num=10&from=1546300800&to=1659312000
+|ERROR|2022-08-01 13:23:47,472|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer LzPwnC-D3sLCrUMWNE3_21e7397eeb19aab46f8488b04b427c911c599d8e', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-08-01 13:23:47,472|Params: {'num': 10, 'from': 1546300800, 'to': 1659312000}
+|ERROR|2022-08-01 13:23:47,472|Bearer token: Bearer LzPwnC-D3sLCrUMWNE3_21e7397eeb19aab46f8488b04b427c911c599d8e
+|ERROR|2022-08-01 13:23:47,472|Connection status: established
+|ERROR|2022-08-01 13:23:47,472|Socket session id: LzPwnC-D3sLCrUMWNE3_
+|ERROR|2022-08-01 13:23:47,472|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8001","period_id":"H2","candles":[]}.
+|ERROR|2022-08-01 13:30:48,537|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-08-01 13:30:48,537|URL: https://api-demo.fxcm.com:443/candles/8001/H1?num=10&from=1554076800&to=1659312000
+|ERROR|2022-08-01 13:30:48,537|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer hdiVVgzr1ePzMRQiNHef21e7397eeb19aab46f8488b04b427c911c599d8e', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-08-01 13:30:48,537|Params: {'num': 10, 'from': 1554076800, 'to': 1659312000}
+|ERROR|2022-08-01 13:30:48,537|Bearer token: Bearer hdiVVgzr1ePzMRQiNHef21e7397eeb19aab46f8488b04b427c911c599d8e
+|ERROR|2022-08-01 13:30:48,537|Connection status: established
+|ERROR|2022-08-01 13:30:48,537|Socket session id: hdiVVgzr1ePzMRQiNHef
+|ERROR|2022-08-01 13:30:48,537|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8001","period_id":"H1","candles":[]}.
+|ERROR|2022-08-01 13:30:56,420|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-08-01 13:30:56,420|URL: https://api-demo.fxcm.com:443/candles/8001/H1?num=10&from=1585699200&to=1659312000
+|ERROR|2022-08-01 13:30:56,435|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer hdiVVgzr1ePzMRQiNHef21e7397eeb19aab46f8488b04b427c911c599d8e', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-08-01 13:30:56,435|Params: {'num': 10, 'from': 1585699200, 'to': 1659312000}
+|ERROR|2022-08-01 13:30:56,435|Bearer token: Bearer hdiVVgzr1ePzMRQiNHef21e7397eeb19aab46f8488b04b427c911c599d8e
+|ERROR|2022-08-01 13:30:56,435|Connection status: established
+|ERROR|2022-08-01 13:30:56,435|Socket session id: hdiVVgzr1ePzMRQiNHef
+|ERROR|2022-08-01 13:30:56,435|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8001","period_id":"H1","candles":[]}.
+|ERROR|2022-08-01 13:31:01,956|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-08-01 13:31:01,956|URL: https://api-demo.fxcm.com:443/candles/8001/H1?num=10&from=1593561600&to=1659312000
+|ERROR|2022-08-01 13:31:01,956|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer hdiVVgzr1ePzMRQiNHef21e7397eeb19aab46f8488b04b427c911c599d8e', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-08-01 13:31:01,956|Params: {'num': 10, 'from': 1593561600, 'to': 1659312000}
+|ERROR|2022-08-01 13:31:01,956|Bearer token: Bearer hdiVVgzr1ePzMRQiNHef21e7397eeb19aab46f8488b04b427c911c599d8e
+|ERROR|2022-08-01 13:31:01,956|Connection status: established
+|ERROR|2022-08-01 13:31:01,956|Socket session id: hdiVVgzr1ePzMRQiNHef
+|ERROR|2022-08-01 13:31:01,956|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8001","period_id":"H1","candles":[]}.
+|ERROR|2022-08-01 13:31:08,198|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-08-01 13:31:08,198|URL: https://api-demo.fxcm.com:443/candles/8001/H1?num=10&from=1596240000&to=1659312000
+|ERROR|2022-08-01 13:31:08,198|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer hdiVVgzr1ePzMRQiNHef21e7397eeb19aab46f8488b04b427c911c599d8e', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-08-01 13:31:08,198|Params: {'num': 10, 'from': 1596240000, 'to': 1659312000}
+|ERROR|2022-08-01 13:31:08,198|Bearer token: Bearer hdiVVgzr1ePzMRQiNHef21e7397eeb19aab46f8488b04b427c911c599d8e
+|ERROR|2022-08-01 13:31:08,198|Connection status: established
+|ERROR|2022-08-01 13:31:08,198|Socket session id: hdiVVgzr1ePzMRQiNHef
+|ERROR|2022-08-01 13:31:08,198|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8001","period_id":"H1","candles":[]}.
+|ERROR|2022-08-01 13:31:17,003|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-08-01 13:31:17,003|URL: https://api-demo.fxcm.com:443/candles/8001/H1?num=10&from=1598918400&to=1659312000
+|ERROR|2022-08-01 13:31:17,003|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer hdiVVgzr1ePzMRQiNHef21e7397eeb19aab46f8488b04b427c911c599d8e', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-08-01 13:31:17,003|Params: {'num': 10, 'from': 1598918400, 'to': 1659312000}
+|ERROR|2022-08-01 13:31:17,003|Bearer token: Bearer hdiVVgzr1ePzMRQiNHef21e7397eeb19aab46f8488b04b427c911c599d8e
+|ERROR|2022-08-01 13:31:17,003|Connection status: established
+|ERROR|2022-08-01 13:31:17,003|Socket session id: hdiVVgzr1ePzMRQiNHef
+|ERROR|2022-08-01 13:31:17,003|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8001","period_id":"H1","candles":[]}.
+|ERROR|2022-08-01 13:31:30,525|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-08-01 13:31:30,531|URL: https://api-demo.fxcm.com:443/candles/8001/H1?num=10&from=1604188800&to=1659312000
+|ERROR|2022-08-01 13:31:30,531|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer hdiVVgzr1ePzMRQiNHef21e7397eeb19aab46f8488b04b427c911c599d8e', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-08-01 13:31:30,531|Params: {'num': 10, 'from': 1604188800, 'to': 1659312000}
+|ERROR|2022-08-01 13:31:30,531|Bearer token: Bearer hdiVVgzr1ePzMRQiNHef21e7397eeb19aab46f8488b04b427c911c599d8e
+|ERROR|2022-08-01 13:31:30,531|Connection status: established
+|ERROR|2022-08-01 13:31:30,531|Socket session id: hdiVVgzr1ePzMRQiNHef
+|ERROR|2022-08-01 13:31:30,531|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8001","period_id":"H1","candles":[]}.
+|ERROR|2022-08-01 13:37:58,902|Socket returns unknown error.
+|ERROR|2022-08-01 13:38:01,850|Socket returns unknown error.
+|ERROR|2022-08-01 13:39:36,077|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-08-01 13:39:36,077|URL: https://api-demo.fxcm.com:443/candles/8001/m15?num=10&from=1606780800&to=1659312000
+|ERROR|2022-08-01 13:39:36,092|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer prdn616Tvv3zFeNMAOSk21e7397eeb19aab46f8488b04b427c911c599d8e', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-08-01 13:39:36,092|Params: {'num': 10, 'from': 1606780800, 'to': 1659312000}
+|ERROR|2022-08-01 13:39:36,092|Bearer token: Bearer prdn616Tvv3zFeNMAOSk21e7397eeb19aab46f8488b04b427c911c599d8e
+|ERROR|2022-08-01 13:39:36,092|Connection status: established
+|ERROR|2022-08-01 13:39:36,092|Socket session id: prdn616Tvv3zFeNMAOSk
+|ERROR|2022-08-01 13:39:36,092|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8001","period_id":"m15","candles":[]}.
+|ERROR|2022-08-01 13:39:43,673|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-08-01 13:39:43,673|URL: https://api-demo.fxcm.com:443/candles/8001/m15?num=10&from=1638316800&to=1659312000
+|ERROR|2022-08-01 13:39:43,673|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer prdn616Tvv3zFeNMAOSk21e7397eeb19aab46f8488b04b427c911c599d8e', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-08-01 13:39:43,673|Params: {'num': 10, 'from': 1638316800, 'to': 1659312000}
+|ERROR|2022-08-01 13:39:43,673|Bearer token: Bearer prdn616Tvv3zFeNMAOSk21e7397eeb19aab46f8488b04b427c911c599d8e
+|ERROR|2022-08-01 13:39:43,673|Connection status: established
+|ERROR|2022-08-01 13:39:43,673|Socket session id: prdn616Tvv3zFeNMAOSk
+|ERROR|2022-08-01 13:39:43,673|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8001","period_id":"m15","candles":[]}.
+|ERROR|2022-08-01 13:39:56,687|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-08-01 13:39:56,687|URL: https://api-demo.fxcm.com:443/candles/8001/m15?num=10&from=1640995200&to=1659312000
+|ERROR|2022-08-01 13:39:56,702|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer prdn616Tvv3zFeNMAOSk21e7397eeb19aab46f8488b04b427c911c599d8e', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-08-01 13:39:56,702|Params: {'num': 10, 'from': 1640995200, 'to': 1659312000}
+|ERROR|2022-08-01 13:39:56,702|Bearer token: Bearer prdn616Tvv3zFeNMAOSk21e7397eeb19aab46f8488b04b427c911c599d8e
+|ERROR|2022-08-01 13:39:56,702|Connection status: established
+|ERROR|2022-08-01 13:39:56,702|Socket session id: prdn616Tvv3zFeNMAOSk
+|ERROR|2022-08-01 13:39:56,702|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8001","period_id":"m15","candles":[]}.
+|ERROR|2022-08-01 13:57:00,197|Socket returns unknown error.
+|ERROR|2022-08-01 13:57:02,601|Socket returns unknown error.
+|ERROR|2022-08-01 16:25:42,785|Socket returns unknown error.
+|ERROR|2022-08-01 16:25:51,484|Socket returns unknown error.
+|ERROR|2022-08-01 16:45:00,265|Call of get_tick_data raised an error:
+|ERROR|2022-08-01 16:45:00,265|<class 'AttributeError'>
+|ERROR|2022-08-01 16:45:00,265|'DataFrame' object has no attribute 'self'

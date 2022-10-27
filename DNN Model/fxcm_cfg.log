@@ -1,0 +1,45 @@
+|ERROR|2022-07-27 19:20:13,803|Socket returns unknown error.
+|ERROR|2022-07-27 19:21:49,775|Socket returns unknown error.
+|ERROR|2022-07-27 19:23:25,970|Socket returns unknown error.
+|ERROR|2022-07-27 19:24:00,550|Socket returns unknown error.
+|ERROR|2022-07-27 19:31:42,435|Connection error: HTTPSConnectionPool(host='api-demo.fxcm.com', port=443): Read timed out. (read timeout=5)
+|ERROR|2022-07-27 19:31:42,435|Socket returns unknown error.
+|ERROR|2022-07-27 19:33:19,549|Socket returns unknown error.
+|ERROR|2022-07-27 19:33:29,522|Socket returns unknown error.
+|ERROR|2022-07-27 19:33:45,100|Socket returns unknown error.
+|ERROR|2022-07-27 19:33:56,245|Socket returns unknown error.
+|ERROR|2022-07-27 19:34:40,771|Socket returns unknown error.
+|ERROR|2022-07-27 19:36:11,658|Socket returns unknown error.
+|ERROR|2022-07-27 19:36:14,442|Socket returns unknown error.
+|ERROR|2022-07-27 19:38:03,048|Socket returns unknown error.
+|ERROR|2022-07-27 19:42:38,902|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-07-27 19:42:38,902|URL: https://api-demo.fxcm.com:443/candles/1/m15?num=10&from=1609459200&to=1658880000
+|ERROR|2022-07-27 19:42:38,902|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer MpdZnzFvCyzHkGARAB2E21e7397eeb19aab46f8488b04b427c911c599d8e', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-07-27 19:42:38,902|Params: {'num': 10, 'from': 1609459200, 'to': 1658880000}
+|ERROR|2022-07-27 19:42:38,902|Bearer token: Bearer MpdZnzFvCyzHkGARAB2E21e7397eeb19aab46f8488b04b427c911c599d8e
+|ERROR|2022-07-27 19:42:38,902|Connection status: established
+|ERROR|2022-07-27 19:42:38,902|Socket session id: MpdZnzFvCyzHkGARAB2E
+|ERROR|2022-07-27 19:42:38,902|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"1","period_id":"m15","candles":[]}.
+|ERROR|2022-07-27 19:45:07,633|Error in get_candles: Illegal period: 1H.
+|ERROR|2022-07-27 19:47:36,727|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-07-27 19:47:36,727|URL: https://api-demo.fxcm.com:443/candles/1/H1?num=10&from=1604188800&to=1658880000
+|ERROR|2022-07-27 19:47:36,727|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer MpdZnzFvCyzHkGARAB2E21e7397eeb19aab46f8488b04b427c911c599d8e', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-07-27 19:47:36,727|Params: {'num': 10, 'from': 1604188800, 'to': 1658880000}
+|ERROR|2022-07-27 19:47:36,727|Bearer token: Bearer MpdZnzFvCyzHkGARAB2E21e7397eeb19aab46f8488b04b427c911c599d8e
+|ERROR|2022-07-27 19:47:36,727|Connection status: established
+|ERROR|2022-07-27 19:47:36,727|Socket session id: MpdZnzFvCyzHkGARAB2E
+|ERROR|2022-07-27 19:47:36,727|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"1","period_id":"H1","candles":[]}.
+|ERROR|2022-07-27 23:51:41,961|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-07-27 23:51:41,961|URL: https://api-demo.fxcm.com:443/candles/1/m30?num=10&from=1606780800&to=1658880000
+|ERROR|2022-07-27 23:51:41,961|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer vL_LO6ZMyN93Q7E1AcZq21e7397eeb19aab46f8488b04b427c911c599d8e', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-07-27 23:51:41,961|Params: {'num': 10, 'from': 1606780800, 'to': 1658880000}
+|ERROR|2022-07-27 23:51:41,961|Bearer token: Bearer vL_LO6ZMyN93Q7E1AcZq21e7397eeb19aab46f8488b04b427c911c599d8e
+|ERROR|2022-07-27 23:51:41,961|Connection status: established
+|ERROR|2022-07-27 23:51:41,961|Socket session id: vL_LO6ZMyN93Q7E1AcZq
+|ERROR|2022-07-27 23:51:41,961|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"1","period_id":"m30","candles":[]}.
+|ERROR|2022-07-28 00:40:29,564|Socket returns unknown error.
+|ERROR|2022-07-28 00:40:40,160|Socket returns unknown error.
+|ERROR|2022-07-28 00:41:12,232|Socket returns unknown error.
+|ERROR|2022-07-28 15:16:55,562|Socket returns unknown error.
+|ERROR|2022-07-28 15:17:01,510|Socket returns unknown error.
+|ERROR|2022-07-28 15:20:53,319|Socket returns unknown error.
