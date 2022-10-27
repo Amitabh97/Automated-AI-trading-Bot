@@ -39,6 +39,7 @@ df.to_csv('file.csv')
 data_csv = pd.read_csv('file.csv', parse_dates = ["date"], index_col = "date", usecols = ['date','bidclose'])
 data_csv.rename(columns = {'bidclose':'price'}, inplace = True)
 symbol = data_csv.columns[0]
+![Picture1](https://user-images.githubusercontent.com/85052869/198322965-a4756bbc-b6d2-46f3-be64-86ae6431b2e7.png)
 data_csv["returns"] = np.log(data_csv[symbol] / data_csv[symbol].shift())
 ```
 ### Step 2: Now features are added to the dataset on which model will be build
