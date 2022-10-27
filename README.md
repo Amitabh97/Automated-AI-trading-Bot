@@ -39,9 +39,10 @@ df.to_csv('file.csv')
 data_csv = pd.read_csv('file.csv', parse_dates = ["date"], index_col = "date", usecols = ['date','bidclose'])
 data_csv.rename(columns = {'bidclose':'price'}, inplace = True)
 symbol = data_csv.columns[0]
-![Picture1](https://user-images.githubusercontent.com/85052869/198322965-a4756bbc-b6d2-46f3-be64-86ae6431b2e7.png)
 data_csv["returns"] = np.log(data_csv[symbol] / data_csv[symbol].shift())
 ```
+![Data_csv](https://user-images.githubusercontent.com/85052869/198323725-7c249bac-53df-4629-9d97-fa9c5d53ea59.png)
+
 ### Step 2: Now features are added to the dataset on which model will be build
 ```bash
 window = 50
@@ -145,6 +146,8 @@ test["cstrategy_net"] = test["strategy_net"].cumsum().apply(np.exp)
 test[["creturns", "cstrategy", "cstrategy_net"]].plot(figsize = (12, 8))
 plt.show()
 ```
+![Model performace with trading cost](https://user-images.githubusercontent.com/85052869/198324039-b6e22364-2721-4db2-a4c4-c246810d617a.png)
+
 ### Step 7: Now we save the model and it’s parameters for live trading
 ```bash
 model.save("DNN_model")
@@ -492,6 +495,8 @@ class CombStrategy():
             self.results[["creturns", "cstrategy"]].plot(title=title, figsize=(12, 8))
 test_strategy1.plot_results()
 ```
+![Strategy 1 output](https://user-images.githubusercontent.com/85052869/198324541-c0834bd3-cb28-4467-a942-b8237b90b2c7.png)
+
 test_strategy1.results.trades.value_counts() # only 10 trades taken
 
 As we can see this strategy only took 10 trades, so if you want to avoid overtrading than this strategy is a good option.
@@ -641,6 +646,8 @@ class CombStrategy():
             self.results[["creturns", "cstrategy"]].plot(title=title, figsize=(12, 8))
 test_strategy2.plot_results()
 ```
+![Sttrategy 2 output](https://user-images.githubusercontent.com/85052869/198324690-6d12b40f-e771-4f3b-966d-8b0e703b2dd1.png)
+
 test_strategy2.results.trades.value_counts() # 56 long, 279 short positions taken by this strategy
 
 As we can see this is a much better strategy with higher returns than previous one
